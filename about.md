@@ -1,7 +1,6 @@
 ---
-layout: page
 title: 关于
-permalink: /about/
+aside: false
 ---
 
 我是李正鹏（Zhengpeng Li）。
