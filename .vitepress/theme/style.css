@@ -1,0 +1,143 @@
+:root,
+:root:where(:lang(zh)) {
+  --vp-font-family-base: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC",
+    "Noto Sans CJK SC", "Source Han Sans SC", "Microsoft YaHei",
+    "WenQuanYi Micro Hei", sans-serif;
+  --vp-font-family-mono: ui-monospace, "SFMono-Regular", "SF Mono", Menlo,
+    Consolas, "Liberation Mono", monospace;
+  --vp-c-brand-1: #1d4e89;
+  --vp-c-brand-2: #17324d;
+  --vp-c-brand-3: #1d4e89;
+  --vp-c-brand-soft: rgba(29, 78, 137, 0.14);
+  --vp-c-bg: #f7f6f3;
+  --vp-c-bg-soft: #fff;
+  --vp-nav-bg-color: #fff;
+  --vp-c-text-1: #1b1f24;
+  --vp-c-text-2: #243044;
+  --vp-layout-max-width: 1100px;
+}
+
+html {
+  line-break: strict;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+}
+
+.VPNavBarTitle .title {
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  color: #17324d;
+}
+
+.site-subtitle {
+  margin-left: 0.7rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #5c6770;
+  letter-spacing: 0;
+}
+
+.VPNavBar .content {
+  background-color: #fff;
+}
+
+.vp-doc {
+  font-size: 17px;
+  line-height: 1.85;
+}
+
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3 {
+  letter-spacing: 0.01em;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.vp-doc a {
+  text-underline-offset: 0.15em;
+}
+
+.vp-doc code {
+  overflow-wrap: anywhere;
+}
+
+.doc-lead {
+  margin: 0 0 1.25rem;
+}
+
+.page-title {
+  margin: 0;
+  font-size: 1.85rem;
+  line-height: 1.4;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.post-meta {
+  margin: 0 0 0.35rem;
+  color: #5c6770;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.source-note .vp-doc > h2:first-child {
+  margin-top: 0;
+  font-size: 1.85rem;
+}
+
+.vp-doc ul.post-list {
+  list-style: none;
+  margin: 0.4rem 0 0;
+  padding: 0;
+}
+
+.vp-doc ul.post-list > li {
+  margin: 0 0 1.6rem;
+}
+
+.vp-doc ul.post-list > li + li {
+  margin-top: 0;
+}
+
+.post-list h3 {
+  margin: 0.15rem 0 0.35rem;
+  border: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.post-list .post-link {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.post-list .post-excerpt {
+  margin: 0.2rem 0 0;
+  color: #243044;
+}
+
+.sample-banner {
+  margin: 0 0 1.25rem;
+  padding: 0.75rem 1rem;
+  background: #eef3f8;
+  border-left: 4px solid #1d4e89;
+  color: #243044;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.vp-doc .sample-banner strong {
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .page-title,
+  .source-note .vp-doc > h2:first-child {
+    font-size: 1.55rem;
+  }
+}
